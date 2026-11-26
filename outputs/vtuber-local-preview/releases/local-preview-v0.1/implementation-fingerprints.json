@@ -1,0 +1,62 @@
+[
+  {
+    "path": "outputs/vtuber-local-preview/package.json",
+    "bytes": 275,
+    "sha256": "368ef96ad54bd5cd7e30f097d1381fb153775584b53e074d32d87014d70bd388"
+  },
+  {
+    "path": "outputs/vtuber-local-preview/start-preview.cmd",
+    "bytes": 410,
+    "sha256": "179a6d1c3eb25f8ba063423daa5cbc7de7a048905664d9a6f58b521dc899b526"
+  },
+  {
+    "path": "outputs/vtuber-local-preview/tsconfig.json",
+    "bytes": 398,
+    "sha256": "5e68420d24f80694a506249ce73735f91db9bd9616ca75b73cd52635be17b43a"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\scripts\\verify.ts",
+    "bytes": 6402,
+    "sha256": "20bcd9a03ae8dd5063907b2123152c2b943275fb5343f0005ae5f0a6edcbccac"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\src\\sdk-memory.ts",
+    "bytes": 1811,
+    "sha256": "6d046f3531f12c2425d458de77fe3499921a96dfa5d2d9a878e4871be74ffa6f"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\src\\server.ts",
+    "bytes": 8245,
+    "sha256": "17697b7bb25c569fc306ead18fb383a927dafb80ea5e7aaf7340b3e9cbbd912f"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\tests\\contracts.test.ts",
+    "bytes": 5307,
+    "sha256": "e6de10db9db1d27f2e795311397267d02f00b629d64465a45c1d87be42244e23"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\web\\app.js",
+    "bytes": 15267,
+    "sha256": "8b6295013878f722441b3bbadb764ec66692d03d09de0ce0e0a7b1b34294199f"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\web\\contracts.js",
+    "bytes": 3474,
+    "sha256": "49be9f2bec06c2339464eb8b9d1733f5b1a5070c4f1e86fb667d2be1d6855e34"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\web\\index.html",
+    "bytes": 2394,
+    "sha256": "f6ab8c69ecaa88a8a712982321c99cf79e2af51f2ca302500db947913a4e19d6"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\web\\selftest.js",
+    "bytes": 10272,
+    "sha256": "a495680bfb23f1f55f5a434937d11017b8322ac15992ee9c3b2b183241a4e375"
+  },
+  {
+    "path": "outputs\\vtuber-local-preview\\web\\style.css",
+    "bytes": 3616,
+    "sha256": "f52e618fbab0640badfd04a7994a63859ff3f39218d13e452c9f07e91a06fe02"
+  }
+]

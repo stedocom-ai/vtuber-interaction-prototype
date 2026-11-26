@@ -1,0 +1,14 @@
+{
+  "name": "vtuber-runtime-recolor",
+  "version": "0.3.0-configurable-cli",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "preflight": "node src/cli.ts",
+    "runtime": "node src/runtime-cli.ts",
+    "test": "node --test tests/preflight.test.ts tests/uv.test.ts tests/cli-options.test.ts",
+    "verify:runtime": "node scripts/verify-runtime.ts",
+    "verify:configurable": "node scripts/verify-configurable-cli.ts"
+  }
+}

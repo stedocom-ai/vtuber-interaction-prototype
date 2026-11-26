@@ -1,0 +1,8 @@
+:root { color-scheme: light; }
+html, body, #stage {
+  width: 100%; height: 100%; margin: 0; padding: 0;
+  overflow: hidden; background: transparent !important;
+}
+#stage { position: fixed; inset: 0; }
+#canvas { display: block; width: 100%; height: 100%; background: transparent !important; }
+[hidden], #renderer-support { display: none !important; }

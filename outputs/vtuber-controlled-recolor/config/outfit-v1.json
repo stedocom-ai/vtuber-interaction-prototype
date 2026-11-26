@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifestPath": "../../vtuber-asset-normalizer/runs/reference-v1/layer-manifest.json",
+  "baselinePreviewPath": "previews/reassembled.png",
+  "rule": {
+    "id": "outfit-solid-v1",
+    "targetLayerId": "layer_003",
+    "expectedLayerName": "Outfit",
+    "operation": "replace-rgb",
+    "allowedRegion": "alpha-nonzero",
+    "maskPath": null
+  },
+  "protectedSources": {
+    "root": "C:/your-models/reference_model_handoff",
+    "snapshotPath": "../../vtuber-creator/config/reference.snapshot.json"
+  },
+  "additionalProtectedPaths": [
+    "../../vtuber-creator/reports",
+    "../../vtuber-creator/assets/reference/minimal_character_v1"
+  ]
+}

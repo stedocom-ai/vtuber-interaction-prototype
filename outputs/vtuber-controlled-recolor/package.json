@@ -1,0 +1,16 @@
+{
+  "name": "vtuber-controlled-recolor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "recolor": "node src/cli.ts",
+    "test": "node --test tests/*.test.ts",
+    "test:reference": "node scripts/verify-reference.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "pngjs": "7.0.0" },
+  "devDependencies": { "@types/node": "24.0.0", "@types/pngjs": "6.0.5", "typescript": "5.9.3" }
+}

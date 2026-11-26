@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "originalRoot": "C:/your-models/reference_model_handoff",
+  "runtimeDirectory": "runtime",
+  "frozenSnapshot": "../../vtuber-creator/config/reference.snapshot.json",
+  "normalizedManifest": "../../vtuber-asset-normalizer/runs/reference-v1/layer-manifest.json",
+  "protectedPaths": [
+    "../../vtuber-creator/reports",
+    "../../vtuber-creator/assets/reference/minimal_character_v1",
+    "../../vtuber-asset-normalizer/runs/reference-v1",
+    "../../vtuber-controlled-recolor/runs",
+    "../../vtuber-controlled-recolor/verification"
+  ],
+  "layerId": "layer_003",
+  "expectedLayerName": "Outfit",
+  "originalColor": "#3F5F9B",
+  "newColor": "#7A5AF8"
+}

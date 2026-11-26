@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>纯角色输出 · 模型未就绪</title>
+  <link rel="stylesheet" href="/obs/output.css">
+  <script src="/sdk/core.js" defer></script>
+  <script type="module" src="/obs/output-page.js"></script>
+</head>
+<body>
+  <main id="stage"><canvas id="canvas" aria-label="透明背景角色输出"></canvas></main>
+  <!-- Required by the frozen renderer; never visible or interactive in output. -->
+  <div id="renderer-support" hidden inert aria-hidden="true">
+    <span id="model-title"></span><span id="fps"></span>
+    <div id="parameters"></div><p id="status"></p><p id="stability"></p>
+    <select id="preset" disabled></select><button id="choose-folder" disabled></button>
+    <input id="folder" type="file" webkitdirectory multiple disabled>
+    <button id="reset" disabled></button>
+    <input id="zoom" type="range" min="0.5" max="2" step="0.01" value="1" disabled>
+    <output id="zoom-value"></output><button id="reset-view" disabled></button>
+    <p id="runtime-info"></p><p id="model-path"></p><p id="output-state"></p>
+  </div>
+</body>
+</html>
